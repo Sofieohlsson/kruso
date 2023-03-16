@@ -32,13 +32,13 @@ const MenuItems = ({ data, depthLevel }) => {
       {data.items ? (
         <>
           <button type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
-            <Link to={`/resume/#/${data.link}`}>{data.title}</Link>&nbsp;
+            <Link to={data.link}>{data.title}</Link>&nbsp;
             {depthLevel > 0 ? <span>&raquo;</span> : <span></span>}
           </button>
           <Dropdown depthLevel={depthLevel} items={data.items} dropdown={dropdown}/>
         </>
       ) : (
-        <Link to={`/resume/#/${data.link || data.url}`}>{data.title}</Link>
+        <Link to={data.link || data.url}>{data.title}</Link>
       )}
     </li>
   );
