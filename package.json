@@ -2,7 +2,7 @@
   "name": "kruso",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sofieohlsson.github.io/",
+  "homepage": "https://sofieohlsson.github.io/kruso",
   "proxy": "https://test-eight-liard-54.vercel.app/api",
   "dependencies": {
     "@heroicons/react": "^2.0.16",
