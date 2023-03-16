@@ -16,7 +16,7 @@ const Navbar = () => {
 
     }, [])
 
-    const iconClasses = "h-10 w-10";
+    const iconClasses = "h-8 w-8";
 
     const handleClick = () => {
         setOpen(!open);

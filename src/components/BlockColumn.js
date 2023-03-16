@@ -7,8 +7,6 @@ const BlockColumn = ({ column }) => {
             {(column.heading) && (
                 <h1 className="blockheading">{column.heading}</h1>
             )}
-
-
             <div className="blockinfo">
                 <p>{column.text}</p>
                 {(column.link) && (

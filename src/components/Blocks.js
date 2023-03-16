@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Fragment } from "react";
 import api from "../services/api";
 import BlockColumn from "./BlockColumn";
 
@@ -18,6 +18,7 @@ const Blocks = () => {
             {blocks.map((data, index) => {
                 return (
                     <>
+                    <Fragment key={index}>
                         {(data.type === "columns") && (
                             <div className={data.columns.length > 1 ? "blockbox" : "blockpadding"}>
                                 {data.columns.map((column, index) => {
@@ -27,6 +28,7 @@ const Blocks = () => {
                                 })}
                             </div>
                         )}
+                        </Fragment>
                     </>
                 )
             })}
