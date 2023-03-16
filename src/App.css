@@ -35,7 +35,7 @@ header {
 
 .menu-items {
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .menu-items a {
@@ -87,6 +87,49 @@ button span {
   margin-right: 10px;
 }
 
+.blockcontainer {
+  position: relative;
+  text-align: center;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blockheading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.796);
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 4vw;
+}
+
+.blockinfo {
+  background-color: rgb(41 38 38 / 86%); 
+  color: #cbcbcb;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 3vw;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.blocklink {
+  color:#4295e5
+}
+
+.blocklink:hover {
+  color: #106fca;
+}
+
+.blockwrapper {
+  max-width: 95vw;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 768px) {
   .menus {
     display: flex;
@@ -115,6 +158,27 @@ button span {
     left: 100%;
     top: -7px;
   }
+
+  .blockbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+  }
+
+  .blockpadding {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .blockinfo {
+    font-size: 1.5vw;
+  }
+
+  .blockheading {
+    font-size: 2vw;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -124,6 +188,11 @@ button span {
 
   .menu-items {
     font-size: 2rem;
+  }
+
+  .blockcontainer {
+    margin-top: 10px;
+    height: 250px;
   }
 
 }
