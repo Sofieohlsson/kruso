@@ -1,0 +1,119 @@
+{
+    "navigation": [
+        {
+            "title": "Store",
+            "link": "store",
+            "items": [
+                {
+                    "title": "Watch",
+                    "link": "store/watch",
+                    "items": [
+                        {
+                            "title": "Smart Watch",
+                            "link": "store/smart"
+                        },
+                        {
+                            "title": "Laptop",
+                            "link": "store/laptop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Watch",
+            "link": "watch",
+            "items": [
+                {
+                    "title": "Smart",
+                    "link": "watch/smart"
+                }
+            ]
+        },
+        {
+            "title": "Laptop",
+            "link": "laptop",
+            "items": [
+                {
+                    "title": "16",
+                    "link": "16"
+                }
+            ]
+        },
+        {
+            "title": "Project",
+            "url": "https://google.com"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "heading": "Lorem ipsum",
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/wide.png",
+                    "text": "Nunc efficitur, lorem non egestas tincidunt"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "heading": "Lorem ipsum",
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image1.jpg",
+                    "text": "Nunc efficitur, lorem non egestas tincidunt",
+                    "link": "https://google.com"
+                },
+                {
+                    "heading": "Ut erat augue",
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image2.jpg",
+                    "text": "Sed hendrerit sapien at tellus tristique",
+                    "link": "https://google.com"
+                },
+                {
+                    "heading": "Nullam luctus convallis",
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image3.jpg",
+                    "text": "Integer consectetur eros sed",
+                    "link": "https://google.com"
+                },
+                {
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image4.jpg",
+                    "text": "Maecenas varius, ligula quis ullamcorper",
+                    "link": "https://google.com"
+                }
+            ]
+        },
+        {
+            "type": "carousel",
+            "items": [
+                {
+                    "heading": "Lorem ipsum",
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image1.jpg",
+                    "text": "Nunc efficitur, lorem non egestas tincidunt",
+                    "link": "https://google.com"
+                },
+                {
+                    "heading": "Ut erat augue",
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image2.jpg",
+                    "text": "Sed hendrerit sapien at tellus tristique",
+                    "link": "https://google.com"
+                },
+                {
+                    "heading": "Nullam luctus convallis",
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image3.jpg",
+                    "text": "Integer consectetur eros sed",
+                    "link": "https://google.com"
+                },
+                {
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image4.jpg",
+                    "text": "Maecenas varius, ligula quis ullamcorper"
+                },
+                {
+                    "image": "https://test-6ipr81byi-yxeri.vercel.app/image5.png",
+                    "text": "Maecenas varius, ligula quis ullamcorper"
+                }
+            ]
+        }
+    ]
+}

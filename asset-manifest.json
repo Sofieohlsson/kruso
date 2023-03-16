@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kruso/static/css/main.30e2727e.css",
+    "main.js": "/kruso/static/js/main.313ff4c4.js",
+    "static/js/787.9b87bee1.chunk.js": "/kruso/static/js/787.9b87bee1.chunk.js",
+    "index.html": "/kruso/index.html",
+    "main.30e2727e.css.map": "/kruso/static/css/main.30e2727e.css.map",
+    "main.313ff4c4.js.map": "/kruso/static/js/main.313ff4c4.js.map",
+    "787.9b87bee1.chunk.js.map": "/kruso/static/js/787.9b87bee1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e2727e.css",
+    "static/js/main.313ff4c4.js"
+  ]
+}
